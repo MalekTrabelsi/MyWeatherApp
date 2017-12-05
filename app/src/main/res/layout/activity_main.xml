@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trabelsi.malek.myweatherapp.MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@color/maCouleur"
+        android:text="Welcome to your Weather App"/>
+
+    <Button
+        android:id="@+id/activity_main_current_position_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:background="@color/bouton"
+        android:text="Voir la météo dans votre région"/>
+
+    <Button
+        android:id="@+id/activity_main_code_postal_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:padding="10dp"
+        android:background="@color/bouton"
+        android:text="Entrer un code postal"/>
+
+    <EditText
+        android:id="@+id/activity_main_saisie_code_postal_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Saisir le code postal"/>
+
+</LinearLayout>
